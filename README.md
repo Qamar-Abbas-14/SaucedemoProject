@@ -12,7 +12,7 @@ This project implements Login Scenario testing of saucedemo.com based on Page Ob
 on Windows:
 - /path_of_virtual_environment/Scripts/Activate.ps1
 
-On Linux Machine:
+  On Linux Machine:
 - source proj-env/bin/activate
 
 4. Get the dependencies/packages of the project from following link:
@@ -25,8 +25,8 @@ On Linux Machine:
 - cd SaucedemoProject/saucedemo/scenarios
 Run the following commands to execute testcase:
 
-For running in Chrome:
+  For running in Chrome:
 - pytest –browser Chrome
 
-For Running in Firefox
+  For Running in Firefox
 - pytest –browser Firefox
