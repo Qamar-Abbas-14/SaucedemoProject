@@ -2,7 +2,7 @@
 This project implements Login Scenario testing of saucedemo.com based on Page Object Model with Python Pytest Framework
 
 # Guide to Run the Project
-1 Clone the repo from following link:
+1. Clone the repo from following link:
 - git clone https://github.com/Qamar-Abbas-14/SaucedemoProject.git
 
 2. make sure you have python installed on you Windows or Linux Machine
