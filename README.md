@@ -1,5 +1,5 @@
 # Saucedemo Project UI Testing
-This project implements Login Scenario testing based on Page Object Model with Python Pytest Framework
+This project implements Login Scenario testing of saucedemo.com based on Page Object Model with Python Pytest Framework
 
 # Guide to Run the Project
 1 Clone the repo from following link:
