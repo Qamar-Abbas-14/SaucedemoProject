@@ -1,5 +1,0 @@
-setup.py
-Project_Sauce_Demo.egg-info/PKG-INFO
-Project_Sauce_Demo.egg-info/SOURCES.txt
-Project_Sauce_Demo.egg-info/dependency_links.txt
-Project_Sauce_Demo.egg-info/top_level.txt
