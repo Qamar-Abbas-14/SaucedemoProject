@@ -1,9 +1,8 @@
 import pytest
-import os
-import time
 from pages.login import SauceDemoPage
 from support.configs import browser
 from utils.inputs import *
+from utils.locator import MainPageLocators
 
 
 class TestCases():
@@ -67,7 +66,7 @@ class TestCases():
         page_driver.enter_password(problem_user['password']) 
         page_driver.click_login_btn()
         item_html = page_driver.check_image_item_html()
-        assert('src="/static/media/bike-light-1200x1500.a0c9caae.jpg"' in item_html)
+        assert(MainPageLocators.SRC_IMG in item_html)
 
     def test_glitch_user_credentials(self):
         page_driver.visit_login_page()
@@ -77,7 +76,7 @@ class TestCases():
         page_driver.enter_password(glitch_user['password']) 
         page_driver.click_login_btn()
         item_html = page_driver.check_image_item_html()
-        assert('src="/static/media/bike-light-1200x1500.a0c9caae.jpg"' in item_html)
+        assert(MainPageLocators.SRC_IMG in item_html)
         
 
     def test_valid_login(self):
@@ -88,7 +87,7 @@ class TestCases():
         page_driver.enter_password(validusers['password'])
         page_driver.click_login_btn()
         item_html = page_driver.check_image_item_html()
-        assert('src="/static/media/bike-light-1200x1500.a0c9caae.jpg"' in item_html)
+        assert(MainPageLocators.SRC_IMG in item_html)
 
     def test_teardown(self):
         page_driver.close_browser()
