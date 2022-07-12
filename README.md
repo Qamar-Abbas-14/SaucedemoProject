@@ -9,7 +9,7 @@ This project implements Login Scenario testing of saucedemo.com based on Page Ob
 
 3. Make a virtual environment and activate it by typing in following command:
 - Python  -m venv path_of_virtual_environment/
-on Windows:
+  On Windows:
 - /path_of_virtual_environment/Scripts/Activate.ps1
 
   On Linux Machine:
@@ -21,12 +21,24 @@ on Windows:
 6. Change directory of project to saucedemo/ and install local packages from following command:
 - Python setup.py develop
 
-7. Change directory and go to testcases directory containing test_login_page.py  file:
-- cd SaucedemoProject/saucedemo/scenarios
-Run the following commands to execute testcases:
+7. Change directory and go to testcases directory containing test_login_page.py file:
+- cd SaucedemoProject/saucedemo/scenarios.
 
+For Linux Machine:
+- Go to directory saucedemo/resources/linux_driver/
+- Run following command to make the two drivers for linux executable.
+- chmod 775 *
+
+Run the following commands to execute testcases:
   For running in Chrome:
 - pytest –browser Chrome
 
   For Running in Firefox
 - pytest –browser Firefox
+
+
+
+
+
+
+
